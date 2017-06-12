@@ -1,10 +1,12 @@
 ---
 
+ 
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-04-10"
+lastupdated: "2017-03-15"
 
+ 
 
 ---
 
@@ -129,7 +131,7 @@ A web or mobile device application. See also [mobile application](#x4258535), [w
 ### app ID
 {: #x7909906}
 
-A GUID that is assigned to a Bluemix mobile application. See also [globally unique identifier](#x2390455).
+A GUID that is assigned to a Bluemix mobile application. See also [globally unique identifier](#x2390455). See also [{{site.data.keyword.appid_full}}](/docs/services/appid/index.html)
 
 ### application key
 {: #x7290111}
@@ -413,12 +415,10 @@ The source of data itself, such as a database or XML file, and the connection in
 
 A place (such as a database system, file, or directory) where data is stored.
 
-<!-- begin STAGING ONLY --> 
 ### DEA
 {: #x2019805}
 
 See [Droplet Execution Agent](#x7470348).
-<!-- begin STAGING ONLY --> 
 
 ### decision diagram
 {: #x6784591}
@@ -476,12 +476,10 @@ See [dynamic query mode](#x5390841).
 
 An archive within Cloud Foundry that contains an application and its runtime and framework dependencies, prior to deployment to the cloud.
 
-<!-- begin STAGING ONLY --> 
 ### Droplet Execution Agent (DEA)
 {: #x7470348}
 
 The Cloud Foundry component that is responsible for deploying applications.
-<!-- end STAGING ONLY --> 
 
 ### dynamic query mode (DQM)
 {: #x5390841}
@@ -510,7 +508,7 @@ In agile development, a work item that defines a big use case with a large or un
 ### exclusive gateway
 {: #x4117682}
 
-A gateway that creates alternative paths in a process flow. The exclusive gateway indicates the diversion point in the flow of a process.
+A gateway that creates alternative paths in a process flow. The exclusive gateway indicates the diversion point in the flow of a process.
 
 ### experimental service
 {: #x7470450}
@@ -662,7 +660,7 @@ An item that prevents progress or a work item to track something that prevents p
 ### inclusive gateway
 {: #x4626646}
 
-A gateway that creates alternative or parallel paths in a process flow where all outgoing sequence flow condition expressions are evaluated independently.
+A gateway that creates alternative or parallel paths in a process flow where all outgoing sequence flow condition expressions are evaluated independently.
 
 ### infrastructure as a service (IaaS)
 {: #x4585332}
@@ -875,7 +873,7 @@ See [platform as a service](#x2029786).
 ### parallel gateway
 {: #x4118340}
 
-A gateway that creates parallel paths without checking conditions.
+A gateway that creates parallel paths without checking conditions.
 
 ### parent image
 {: #x8439210}
@@ -1208,7 +1206,7 @@ A section of a software package that defines either a specific action to be perf
 ### starter
 {: #x7470511}
 
-A template that includes predefined services and application code that is configured with a particular buildpack.  A starter might be application code that is written in a specific programming language, or a combination of application code and a set of services. See also [runtime](#x2391929).
+A template that includes predefined services and application code that is configured with a particular buildpack.  A starter might be application code that is written in a specific programming language, or a combination of application code and a set of services. See also [runtime](#x2391929).
 
 ### story
 {: #x5027530}
