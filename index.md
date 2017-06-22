@@ -4,7 +4,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-03-15"
+lastupdated: "2017-06-22"
 
  
 
@@ -68,35 +68,10 @@ A value used by the consumer to gain access to the protected resources on behalf
 
 A code snippet that can be explicitly invoked, or run in response to an event. See also [feed](#x3129185), [invoke](#x2057232).
 
-### active report
-{: #x5074928}
-
-A report output type that provides a highly interactive and easy-to-use managed report that users can consume offline. Active reports are built for business users, allowing them to explore their data and derive additional insight.
-
-### activity
-{: #x2013072}
-
-An element of a process, such as a task, a subprocess, a loop, or a decision. Activities are represented as nodes in process diagrams.
-
-### activity stream
-{: #x6842200}
-
-A log of all the activity within a given space over the last 30 days.
-
 ### adoption item
 {: #x7494374}
 
 A development work item that tracks when changes by one team must be adopted by another team.
-
-### Advanced Encryption Standard (AES)
-{: #x2897510}
-
-A data encryption technique that improved upon and officially replaced the Data Encryption Standard (DES).
-
-### AES
-{: #x2897512}
-
-See [Advanced Encryption Standard](#x2897510).
 
 ### affinity
 {: #x2149238}
@@ -127,16 +102,6 @@ See [application programming interface](#x2000186).
 {: #x4281528}
 
 A web or mobile device application. See also [mobile application](#x4258535), [web application](#x2116500).
-
-### app ID
-{: #x7909906}
-
-A GUID that is assigned to a Bluemix mobile application. See also [globally unique identifier](#x2390455). See also [{{site.data.keyword.appid_full}}](/docs/services/appid/index.html)
-
-### application key
-{: #x7290111}
-
-The unique identifier that your application uses when it reports data to IBM Mobile Quality Assurance. The key can be regenerated any time. However, older builds that use an older application key can no longer report to IBM Mobile Quality Assurance sessions.
 
 ### application programming interface (API)
 {: #x2000186}
@@ -177,13 +142,13 @@ See [code completion](#x7344030).
 ### auto-deploy
 {: #x7494379}
 
-- To automatically retrieve and package build output, then move that output to another location for users to run or test it.
 - An automated process that retrieves and packages build output, and then moves that output to another location so that users can run or test it.
+- To automatically retrieve and package build output, then move that output to another location for users to run or test it.
 
 ### availability zone
 {: #x7018171}
 
-A location within a region that {{site.data.keyword.containerlong}} runs in.
+A location within a region that IBM Containers runs in.
 
 
 ## B
@@ -234,16 +199,11 @@ A template that includes one application and its associated runtime environment 
 
 Pertaining to an open, non-proprietary development platform that includes public cloud, dedicated cloud, and local cloud deployment models. See also [dedicated cloud](#x8439199), [local cloud](#x8439194), [public cloud](#x4585370).
 
-### BPMN
-{: #x3551512}
-
-See [Business Process Modeling Notation](#x3551507).
-
 ### branch
 {: #x2050278}
 
-- A stream for insulated or parallel development.
 - To create a stream for parallel or insulated development.
+- A stream for insulated or parallel development.
 
 ### builder
 {: #x2197543}
@@ -255,16 +215,6 @@ A tool that builds and compiles code.
 
 A collection of scripts that prepare your code to run on Bluemix. Buildpacks examine deployed applications, then download and configure any dependent applications.
 
-### business glossary
-{: #x4244928}
-
-The controlled vocabulary and associated enterprise-wide information about governance policies and rules that define business semantics that, in turn, reveal or aid the operational needs of the business.
-
-### Business Process Modeling Notation (BPMN)
-{: #x3551507}
-
-A standardized graphical notation for creating diagrams of business processes.
-
 
 ## C
 {: #glossc}
@@ -273,11 +223,6 @@ A standardized graphical notation for creating diagrams of business processes.
 {: #x2015942}
 
 See [certificate authority](#x2016383).
-
-### CBC
-{: #x2234719}
-
-See [cipher block chaining](#x2016783).
 
 ### CD
 {: #x2050789}
@@ -303,11 +248,6 @@ A group of related changes to artifacts in a workspace or stream.
 {: #x2008855}
 
 See [continuous integration](#x6009572).
-
-### cipher block chaining (CBC)
-{: #x2016783}
-
-A method of reducing repetitive patterns in ciphertext by performing an exclusive-OR operation on each 8-byte block of data with the previously encrypted 8-byte block before it is encrypted.
 
 ### CLI
 {: #x2008863}
@@ -342,13 +282,13 @@ A computer interface in which the input and output are text based.
 ### commit
 {: #x2000758}
 
-- A snapshot of the current state of a project in a repository. A project's history is defined by a series of commits.
 - To store a snapshot of the current state of a project.
+- A snapshot of the current state of a project in a repository. A project's history is defined by a series of commits.
 
 ### component
 {: #x2017871}
 
-- In configuration management, a unit of organization for a reusable set of engineering artifacts. Components often correspond to project areas. Global configurations exist within a component. See also [artifact](#x2262995).
+- In configuration management, a unit of organization for a reusable set of engineering artifacts. A configuration of a component selects versions of the artifacts of that component. See also [artifact](#x2262995).
 - In source control management, a grouping of related artifacts in a stream or repository workspace. A component can contain any number of folders and files.
 
 ### compute
@@ -405,11 +345,6 @@ A program that runs unattended to perform continuous or periodic functions, such
 
 A user interface component that provides a comprehensive summary of pertinent information from various sources to the user.
 
-### data source
-{: #x2176124}
-
-The source of data itself, such as a database or XML file, and the connection information necessary for accessing the data.
-
 ### data store
 {: #x2052849}
 
@@ -419,21 +354,6 @@ A place (such as a database system, file, or directory) where data is stored.
 {: #x2019805}
 
 See [Droplet Execution Agent](#x7470348).
-
-### decision diagram
-{: #x6784591}
-
-A set of graphical elements that visually represent the details of a decision in a top-down structure with dependency lines.
-
-### decision rule
-{: #x8677850}
-
-A rule that consists of one or more decision considerations and one conclusion.
-
-### decision table
-{: #x2876495}
-
-A form of business rule that captures multi-conditional decision-making business logic in a table where the rows and columns intersect to determine the appropriate action. See also [ruleset](#x3721562).
 
 ### dedicated cloud
 {: #x8439199}
@@ -445,31 +365,25 @@ A private cloud computing environment that provides infrastructure with single-t
 
 A project element that allows stakeholders to track bugs and bug fixes.
 
+### delivery pipeline
+{: #x9146019}
+
+A repeatable build and deployment service that divides software delivery into stages. Pipelines support continuous delivery and continuous integration, including automated testing.
+
 ### deployment
 {: #x2104544}
 
-- The process of moving an application (such as a report or model) to a different instance. For example, reports are often created in a test environment and then deployed to production. When an application is deployed, it is exported, transferred, and imported.
-- A process that retrieves the output of a build, packages the output with configuration properties, and installs the package in a pre-defined location so that it can be tested or run. See also [stage](#x2067189).
+A process that retrieves the output of a build, packages the output with configuration properties, and installs the package in a pre-defined location so that it can be tested or run. See also [stage](#x2067189).
 
 ### DevOps
 {: #x5784896}
 
-A software methodology that integrates application development and IT operations.
-
-### discovery map
-{: #x8677855}
-
-A draft of process milestones and the activities in those milestones for brainstorming or interviewing sessions with process experts.
+A software methodology that integrates application development and IT operations so that teams can deliver code faster to production and iterate continuously based on market feedback.
 
 ### domain
 {: #x2021210}
 
 Part of a naming hierarchy that specifies the route. For example, example.com. In Bluemix, domains are associated with orgs. Domain objects are not directly bound to apps. See also [custom domain](#x5728384), [host](#x2002243), [organization](#x2032585), [route](#x2037338), [subdomain](#x2040080), [Uniform Resource Locator](#x2042491).
-
-### DQM
-{: #x3744906}
-
-See [dynamic query mode](#x5390841).
 
 ### droplet
 {: #x7470343}
@@ -480,11 +394,6 @@ An archive within Cloud Foundry that contains an application and its runtime and
 {: #x7470348}
 
 The Cloud Foundry component that is responsible for deploying applications.
-
-### dynamic query mode (DQM)
-{: #x5390841}
-
-A Java-based query execution mode that provides native access to data sources. It optimizes queries to address query complexity and large data volumes. It provides advanced query capabilities, such as in-memory caching, that benefits query planning, execution, and results.
 
 
 ## E
@@ -498,17 +407,12 @@ An open-source initiative that provides independent software vendors (ISVs) and 
 ### endpoint
 {: #x2026820}
 
-The address of an API or service in an environment. An API exposes an endpoint and at the same time invokes the endpoints of other services.
+The address of an API or service in an environment. An API exposes an endpoint and at the same time invokes the endpoints of other services. See also [route](#x2037338).
 
 ### epic
 {: #x5788994}
 
 In agile development, a work item that defines a big use case with a large or unknown amount of work, which is often completed over several sprints. Epics can be divided into stories.
-
-### exclusive gateway
-{: #x4117682}
-
-A gateway that creates alternative paths in a process flow. The exclusive gateway indicates the diversion point in the flow of a process.
 
 ### experimental service
 {: #x7470450}
@@ -532,23 +436,18 @@ A piece of code that configures an external event source to fire trigger events.
 ### file share
 {: #x2022902}
 
-In the IBM cloud environment, a persistent storage system where users store and share files. In {{site.data.keyword.containerlong}}, users can mount Docker volumes on file shares.
+In the IBM cloud environment, a persistent storage system where users store and share files. In IBM Containers, users can mount Docker volumes on file shares.
 
 ### fire
 {: #x2239904}
 
 To activate a trigger.
 
-### flow line
-{: #x4879516}
-
-A directional line that indicates the sequence of activities within a process.
-
 ### fork
 {: #x2023301}
 
-- In Git, a divergent copy of a repository that can be modified without affecting or having to synchronize with the original.
 - To create a project and Git repository that contain all of the repository content and history of another project.
+- In Git, a divergent copy of a repository that can be modified without affecting or having to synchronize with the original.
 
 ### framework
 {: #x2023472}
@@ -559,10 +458,10 @@ An architecture for an application that provides a standard structure for an app
 ## G
 {: #glossg}
 
-### gateway
-{: #x2023645}
+### gate
+{: #x2289648}
 
-A network point that is used to control the divergence and convergence of sequence flow paths in a process and in a choreography.
+A requirement that must be met before a build can move to the next stage in the deployment process.
 
 ### GB-hour
 {: #x7470477}
@@ -577,7 +476,7 @@ An open source program for source control management.
 ### globally unique identifier (GUID)
 {: #x2390455}
 
-An algorithmically determined number that uniquely identifies an entity within a system. See also [app ID](#x7909906).
+An algorithmically determined number that uniquely identifies an entity within a system.
 
 ### GUID
 {: #x2390457}
@@ -592,11 +491,6 @@ See [globally unique identifier](#x2390455).
 {: #x2404289}
 
 See [high availability](#x2284708).
-
-### happy path
-{: #x8862010}
-
-A scenario that features no exceptions or error conditions and comprises the sequence of activities that run if everything goes as expected.
 
 ### heavy API call
 {: #x7690468}
@@ -634,6 +528,7 @@ A cloud computing environment that consists of multiple public and private resou
 An Internet protocol that is used by web servers and web browsers to transfer and display hypermedia documents securely across the Internet.
 
 
+
 ## I
 {: #glossi}
 
@@ -656,11 +551,6 @@ A complete runtime that can be used to run applications. Images are used to crea
 {: #x4015600}
 
 An item that prevents progress or a work item to track something that prevents progress.
-
-### inclusive gateway
-{: #x4626646}
-
-A gateway that creates alternative or parallel paths in a process flow where all outgoing sequence flow condition expressions are evaluated independently.
 
 ### infrastructure as a service (IaaS)
 {: #x4585332}
@@ -690,7 +580,7 @@ A subordinate certificate that is issued by the trusted root certificate authori
 ### Internet of Things (IoT)
 {: #x6714341}
 
-The network of interconnected objects that simulate an "internet" of connectable devices.
+The global network of endpoints that can capture or generate data. For example, a smartphone, smart watch and back-end server might all communicate with each other, sending data back and forth, or even to additional devices within the network.
 
 ### invoke
 {: #x2057232}
@@ -741,11 +631,6 @@ A changed version of a parent image. Images consist of layers, where the changed
 
 See [Lightweight Directory Access Protocol](#x2028538).
 
-### license key
-{: #x2804840}
-
-An authorization that regulates the use of software licensed programs. Software license keys need to be installed on the system when software is upgraded or moved, the hardware processor group is changed, additional license usage is added, or new software that requires license keys is purchased.
-
 ### light API call
 {: #x7690463}
 
@@ -768,8 +653,7 @@ A cloud computing environment within the client's data center. The local cloud i
 ### manifest file
 {: #x2858069}
 
-- A file that contains information, such as settings, instructions, or metadata, about other files or artifacts.
-- With Android apps, the manifest file specifies permissions and data collection parameters so that mobile devices can report required information from testers and customers. Different manifests are required for internal testers and customers.
+A file that contains information, such as settings, instructions, or metadata, about other files or artifacts.
 
 ### MBaaS
 {: #x7044865}
@@ -790,8 +674,7 @@ A set of small, independent architectural components, each with a single purpose
 ### milestone
 {: #x2118203}
 
-- A significant event in a project or process that is used to determine progress toward goals.
-- A significant phase in the process in which a set of activities are performed or decisions are made.
+A significant event in a project or process that is used to determine progress toward goals.
 
 ### mobile app
 {: #x7636517}
@@ -812,11 +695,6 @@ A computing model that connects mobile applications to cloud computing services 
 {: #x4585344}
 
 An infrastructure in which the storage and processing of data for applications is offloaded from a mobile device into the cloud. With mobile cloud computing, applications are not limited to a specific carrier, but are accessed through the Web.
-
-### model
-{: #x2245601}
-
-A physical or business representation of the structure of the data from one or more data sources. A model describes data objects, structure, and grouping, as well as relationships and security. In Cognos Analytics, a model or a subset of the model must be published to the Cognos server as a package for users to create and run reports.
 
 
 ## N
@@ -870,45 +748,26 @@ The grouping methodology for users in Bluemix. Orgs are used to manage quotas. U
 
 See [platform as a service](#x2029786).
 
-### parallel gateway
-{: #x4118340}
-
-A gateway that creates parallel paths without checking conditions.
-
 ### parent image
 {: #x8439210}
 
 An image that provides a base for another image. For example, Ubuntu Linux is the parent image of the IBM Liberty image. See also [base image](#x5366487), [image](#x2024928).
 
-### participant
-{: #x2003653}
-
-The actor who is responsible for an activity or task.
-
-### payload
-{: #x2238121}
-
-The body of a message that holds content.
-
 ### pipeline
 {: #x2063222}
 
-A repeatable build and deployment service that divides software delivery into stages. Pipelines support continuous delivery and continuous integration, including automated testing.
+See [delivery pipeline](#x9146019).
+
 
 ### platform as a service (PaaS)
 {: #x2029786}
 
 The delivery of a computing platform, including applications, optimized middleware, development tools, and Java and Web 2.0 runtime environments, in a cloud-based environment.
 
-### preproduction library
-{: #x7290106}
+### policy
+{: #x2011359}
 
-A collection of app testing features that collect in-depth details about issues and problems with an app. The testing features identify the device and user who is experiencing bugs so that developers can obtain logs and other information to correct problems. See also [preproduction mode](#x7290124).
-
-### preproduction mode
-{: #x7290124}
-
-An operating state where internal testers use all data-collection features to provide detailed information regarding an app's behavior and performance. See also [preproduction library](#x7290106).
+An organizational structure for rules. See also [rule](#x2037526).
 
 ### priority
 {: #x2090430}
@@ -935,31 +794,6 @@ An algorithmic pattern used to encrypt messages that only the corresponding publ
 
 A service that is visible only to members of a specified Bluemix organization.
 
-### process blueprint
-{: #x8677871}
-
-A description of a business process that includes details about the activities in the process, such as the people who perform or know about the activities, and the milestones that activities are performed in.
-
-### process diagram
-{: #x2220858}
-
-A diagram that represents the flow of work for a process. The objects within a process diagram include tasks, processes, connections, business items, resources, and decisions.
-
-### process model
-{: #x2264460}
-
-A representation of a real-time business process. A business process model is composed of the individual steps or activities that make up the process, contains the conditions that dictate when the steps or activities occur, and identifies the resources that are required to run the business process.
-
-### production library
-{: #x2034919}
-
-A subset of the preproduction library of app testing features that customers use. Customers' mobile devices report issues and problems anonymously. These features also collect fewer details in logs, session data, and crash reports. See also [production mode](#x6070975).
-
-### production mode
-{: #x6070975}
-
-An operating state where customers use a limited set of data-collection features to provide information regarding an app's behavior and performance. See also [production library](#x2034919).
-
 ### project
 {: #x2035151}
 
@@ -978,7 +812,7 @@ To send information from a server to a client. When a server pushes content, it 
 ### push notification
 {: #x5599582}
 
-An alert indicating a change or update that appears on a mobile app icon.
+An alert indicating a change or update on a mobile app icon.
 
 
 ## R
@@ -1008,11 +842,6 @@ A public or private repository that contains images used to create containers. S
 {: #x7639721}
 
 See [repository](#x2036865).
-
-### report
-{: #x2036830}
-
-A set of data deliberately laid out to communicate business information.
 
 ### repository (repo)
 {: #x2036865}
@@ -1047,33 +876,14 @@ In agile development, a meeting or a work item that evaluates successes and need
 ### route
 {: #x2037338}
 
-The URL used to direct requests to an application. A route is made up of an optional host (or subdomain) and a domain that are specified when an application is pushed. For example, in the route myapp.example.com, myapp is the host and example.com is the domain. A route can be associated with one or more applications. Unless a custom domain is specified, Bluemix uses a default shared domain in the route to your application. See also [custom domain](#x5728384), [domain](#x2021210), [host](#x2002243), [subdomain](#x2040080), [Uniform Resource Locator](#x2042491).
+The URL used to direct requests to an application. A route is made up of an optional host (or subdomain) and a domain that are specified when an application is pushed. For example, in the route myapp.example.com, myapp is the host and example.com is the domain. A route can be associated with one or more applications. Unless a custom domain is specified, Bluemix uses a default shared domain in the route to your application. See also [custom domain](#x5728384), [domain](#x2021210), [endpoint](#x2026820), [host](#x2002243), [subdomain](#x2040080), [Uniform Resource Locator](#x2042491).
 
 ### rule
 {: #x2037526}
 
-- A set of conditional statements that enable computer systems to identify relationships and run automated responses accordingly.
 - A criteria that associates one trigger with one action, with every firing of the trigger causing the corresponding action to be invoked with the trigger event as input.
-
-### RuleApp
-{: #x4106478}
-
-A deployment and management unit for Rule Execution Server that can contain one or more rulesets.
-
-### Rule Designer
-{: #x5579603}
-
-A business rule application development tool integrated into the Eclipse development environment and dedicated to the creation and management of business rule applications.
-
-### Rule Execution Server
-{: #x4188046}
-
-A module that integrates into the Java EE environment, and as such offers the standard services of an application to execute, control, and monitor rulesets contained in RuleApps.
-
-### ruleset
-{: #x3721562}
-
-A decision-making program that can be processed by a rule engine to yield a decision, based on input and output parameters. The decision-making logic is implemented as rules, decision tables, and ruleflows. See also [decision table](#x2876495).
+- A set of conditional statements that are used to determine whether a build can be promoted. See also [policy](#x2011359).
+- A set of conditional statements that enable computer systems to identify relationships and run automated responses accordingly.
 
 ### runbook
 {: #x2830619}
@@ -1144,11 +954,6 @@ The period of time after an app is started on a mobile device and the quality as
 
 In software and systems development, a measurement of the importance for a unit of work, for example, critical, high, medium, or low.
 
-### shake
-{: #x5905152}
-
-To cause movement such that a device's accelerometer senses that movement, and starts an event. For example, testers and customers can initiate a problem report about an app by shaking their device.
-
 ### single sign-on (SSO)
 {: #x2213318}
 
@@ -1172,9 +977,8 @@ An aspect of software configuration management that involves managing changes to
 ### space
 {: #x2039442}
 
-- A sub-group within a Bluemix org. Users who are members of an org are given access to one or more of its spaces, with permissions associated with a particular role (such as developer, manager, or auditor). Any member of the space can view apps, but only members with the developer role can create apps and add service instances to the space. Apps and service instances are associated with spaces. See also [organization](#x2032585).
 - An organizational unit that contains applications and services in the Cloud Foundry infrastructure and can be used to store and track application resources.
-- An access-controlled area within an account where Blueworks Live artifacts can be created and organized.
+- A sub-group within a Bluemix org. Users who are members of an org are given access to one or more of its spaces, with permissions associated with a particular role (such as developer, manager, or auditor). Any member of the space can view apps, but only members with the developer role can create apps and add service instances to the space. Apps and service instances are associated with spaces. See also [organization](#x2032585).
 
 ### sprint
 {: #x6248609}
@@ -1194,9 +998,9 @@ See [single sign-on](#x2213318).
 ### stage
 {: #x2067189}
 
-- To mark a set of file changes as being ready for Git commit.
 - A group of jobs within a shared execution context that consists of source input, environment variables, and a defined order of execution.
 - To deploy an application, service, or instance to a pre-defined location  for running or testing before deployment to a production environment. See also [deployment](#x2104544).
+- To mark a set of file changes as being ready for Git commit.
 
 ### stanza
 {: #x2094743}
@@ -1206,32 +1010,17 @@ A section of a software package that defines either a specific action to be perf
 ### starter
 {: #x7470511}
 
-A template that includes predefined services and application code that is configured with a particular buildpack.  A starter might be application code that is written in a specific programming language, or a combination of application code and a set of services. See also [runtime](#x2391929).
+A template that includes predefined services and application code that is configured with a particular buildpack.  A starter might be application code that is written in a specific programming language, or a combination of application code and a set of services. See also [runtime](#x2391929).
 
 ### story
 {: #x5027530}
 
 A development work item that defines part of a use case or a specific contribution to the value of the overall product.
 
-### sub-decision
-{: #x7777680}
-
-A decision that describes how an aspect of the root decision is assessed. The root decision depends on the sub-decisions. Each sub-decision can have its own description and properties.
-
 ### subdomain
 {: #x2040080}
 
 A domain that makes up a part of a larger domain. See also [custom domain](#x5728384), [domain](#x2021210), [host](#x2002243), [route](#x2037338), [Uniform Resource Locator](#x2042491).
-
-### swimlane
-{: #x2263662}
-
-A visually separated row within a process flow diagram that groups all the activities in the process that are performed by a particular combination of roles, resources, organization units, or locations.
-
-### symbolication
-{: #x7290136}
-
-The process by which symbols that are excluded during app compilation are inserted into stack traces to make the traces readable for testers and developers.
 
 ### syntax checking
 {: #x7344042}
@@ -1248,24 +1037,28 @@ An information technology (IT) system that incorporates technologies that encour
 
 An information storage system (such as a database or application) that stores business records and automates standard processes. See also [system of engagement](#x6528306).
 
-
 ## T
 {: #glosst}
-
-### TAI
-{: #x2218705}
-
-See [trust association interceptor](#x2239009).
 
 ### task
 {: #x2007852}
 
 In agile development, a work item that defines a specific piece of work.
 
+### TC
+{: #x2041100}
+
+See [test case](#x2166514).
+
 ### template
 {: #x2041200}
 
 A predefined structure for an artifact.
+
+### test case (TC)
+{: #x2166514}
+
+A set of tasks, scripts, or routines that automate the task of testing software.
 
 ### third-party
 {: #x2877945}
@@ -1285,7 +1078,12 @@ An area of activity in a project that typically has its own schedule, deliverabl
 ### toolchain
 {: #x2956335}
 
-A collection of programs or tools used to develop a product.
+A collection of programs or tools used to develop a product, service, or app. See also [tool integration](#x7219699).
+
+### tool integration
+{: #x7219699}
+
+An entry in a toolchain that represents an association with a tool. Tool integrations provide access to resources in a tool from the toolchain and visibility into the tool. See also [toolchain](#x2956335).
 
 ### track build item
 {: #x7494456}
@@ -1296,11 +1094,6 @@ A development work item that tracks required fixes after a failed build.
 {: #x2005384}
 
 A mechanism that initiates actions. Triggers can be explicitly fired by a user or fired on behalf of a user by an external event source.
-
-### trust association interceptor (TAI)
-{: #x2239009}
-
-The mechanism by which trust is validated in the product environment for every request received by the proxy server. The method of validation is agreed upon by the proxy server and the interceptor.
 
 ### trusted root
 {: #x2042234}
@@ -1314,7 +1107,7 @@ A certificate signed by a trusted certificate authority (CA). See also [certific
 ### Uniform Resource Identifier (URI)
 {: #x2116436}
 
-A unique address that is used to identify content on the web, such as a page of text, a video or sound clip, a still or animated image, or a program. The most common form of URI is the web page address, which is a particular form or subset of URI called a Uniform Resource Locator (URL). A URI typically describes how to access the resource, the computer that contains the resource, and the name of the resource (a file name) on the computer.
+A unique address that is used to identify content on the web. The most common form of URI is the web page address, which is a particular form or subset of URI called a Uniform Resource Locator (URL). A URI typically describes how to access the resource, the computer that contains the resource, and the location of the resource on that computer.
 
 ### Uniform Resource Locator (URL)
 {: #x2042491}
@@ -1330,11 +1123,6 @@ See [Uniform Resource Identifier](#x2116436).
 {: #x2042718}
 
 See [Uniform Resource Locator](#x2042491).
-
-### user sentiment
-{: #x7290116}
-
-A user-rating score that is derived from gathering users' application ratings from the major online retail application stores (for example, iTunes). The function crawls all ratings and reviews to generate a cumulative mobile app score that combines app quality, user satisfaction, and the overall amount of positive and negative feedback that users provide.
 
 
 ## V
@@ -1384,7 +1172,6 @@ See [web archive](#x2116506).
 
 See [web archive](#x2116506).
 
-
 ### web app
 {: #x7636628}
 
@@ -1418,6 +1205,6 @@ An artifact representing a generalized notion of a development task, such as a t
 ### workspace
 {: #x2096037}
 
-- In Eclipse, the collection of projects and other resources that the user is currently developing in the workbench. Metadata about these resources resides in a directory on the file system; the resources might reside in the same directory. See also [repository workspace](#x3889804).
 - A context that contains a collection of artifacts that a user with appropriate permission can modify.
+- In Eclipse, the collection of projects and other resources that the user is currently developing in the workbench. Metadata about these resources resides in a directory on the file system; the resources might reside in the same directory. See also [repository workspace](#x3889804).
 
