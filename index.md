@@ -4,7 +4,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-06-22"
+lastupdated: "2017-08-04"
 
  
 
@@ -1195,7 +1195,7 @@ An HTTP custom callback that alters the behavior of a web page or web applicatio
 ### Web IDE
 {: #x7494461}
 
-In IBM DevOps Services, a browser-based IDE for web and cloud development that is built on the open source Orion platform from Eclipse.
+A browser-based IDE for web and cloud development that is built on the open source Orion platform from Eclipse (also called Eclipse Orion Web IDE).
 
 ### work item
 {: #x2173032}
