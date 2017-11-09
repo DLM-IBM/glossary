@@ -1,22 +1,20 @@
 ---
 
- 
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-08-04"
+lastupdated: "2017-10-19"
 
- 
 
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Glossary terms for {{site.data.keyword.Bluemix_notm}} 
+# Glossary terms for {{site.data.keyword.cloud_notm}} 
 {: #glossary}
 
-This glossary provides terms and definitions for {{site.data.keyword.Bluemix}}.
+This glossary provides terms and definitions for {{site.data.keyword.cloud_notm}}.
 {:shortdesc}
 
 The following cross-references are used in this glossary:
@@ -28,9 +26,7 @@ The following cross-references are used in this glossary:
 For other terms and definitions, see the [IBM Terminology website](http://www-01.ibm.com/software/globalization/terminology/){: new_window}.
 
 <!--If you do not want letter links at the top of your 
-glossary, delete the
-text between these comment tags.-->
-
+glossary, delete the text between these comment tags.
 [A](#glossa)
 [B](#glossb)
 [C](#glossc)
@@ -53,7 +49,7 @@ text between these comment tags.-->
 [V](#glossv)
 [W](#glossw)
 
-<!--end letter link tags-->
+-->
 
 ## A
 {: #glossa}
@@ -187,7 +183,7 @@ A deployment technique that enables continuous delivery and minimizes downtime b
 ### Bluemix
 {: #x7301758}
 
-An open-standards, cloud-based platform for building, managing, and running apps of all types, such as web, mobile, big data, and smart devices. Capabilities include Java, mobile back-end development, and application monitoring, as well as features from ecosystem partners and open source&mdash;all provided as-a-service in the cloud.
+See [IBM Cloud](#cloud).
 
 ### boilerplate
 {: #x7233930}
@@ -213,7 +209,7 @@ A tool that builds and compiles code.
 ### buildpack
 {: #x7233925}
 
-A collection of scripts that prepare your code to run on Bluemix. Buildpacks examine deployed applications, then download and configure any dependent applications.
+A collection of scripts that prepare your code to run on IBM Cloud. Buildpacks examine deployed applications, then download and configure any dependent applications.
 
 
 ## C
@@ -383,7 +379,7 @@ A software methodology that integrates application development and IT operations
 ### domain
 {: #x2021210}
 
-Part of a naming hierarchy that specifies the route. For example, example.com. In Bluemix, domains are associated with orgs. Domain objects are not directly bound to apps. See also [custom domain](#x5728384), [host](#x2002243), [organization](#x2032585), [route](#x2037338), [subdomain](#x2040080), [Uniform Resource Locator](#x2042491).
+Part of a naming hierarchy that specifies the route. For example, example.com. In IBM Cloud, domains are associated with orgs. Domain objects are not directly bound to apps. See also [custom domain](#x5728384), [host](#x2002243), [organization](#x2032585), [route](#x2037338), [subdomain](#x2040080), [Uniform Resource Locator](#x2042491).
 
 ### droplet
 {: #x7470343}
@@ -528,7 +524,6 @@ A cloud computing environment that consists of multiple public and private resou
 An Internet protocol that is used by web servers and web browsers to transfer and display hypermedia documents securely across the Internet.
 
 
-
 ## I
 {: #glossi}
 
@@ -536,6 +531,11 @@ An Internet protocol that is used by web servers and web browsers to transfer an
 {: #x4585337}
 
 See [infrastructure as a service](#x4585332).
+
+### IBM Cloud
+{: #cloud}
+
+An open-standards, cloud-based platform for building, managing, and running apps of all types, such as web, mobile, big data, and smart devices. Capabilities include Java, mobile back-end development, and application monitoring, as well as features from ecosystem partners and open source&mdash;all provided as-a-service in the cloud.
 
 ### IDE
 {: #x2115755}
@@ -703,7 +703,7 @@ An infrastructure in which the storage and processing of data for applications i
 ### namespace
 {: #x2031005}
 
-A unique name that identifies your organization's image repository within the Bluemix registry. See also [image](#x2024928), [private image repository](#x8439215).
+A unique name that identifies your organization's image repository within the {{site.data.keyword.cloud_notm}} registry. See also [image](#x2024928), [private image repository](#x8439215).
 
 
 ## O
@@ -737,7 +737,7 @@ See [organization](#x2032585).
 ### organization (org)
 {: #x2032585}
 
-The grouping methodology for users in Bluemix. Orgs are used to manage quotas. Users in an org share memory and service instance quotas. See also [domain](#x2021210), [space](#x2039442).
+The grouping methodology for users in IBM Cloud. Orgs are used to manage quotas. Users in an org share memory and service instance quotas. See also [domain](#x2021210), [space](#x2039442).
 
 
 ## P
@@ -782,7 +782,7 @@ A cloud computing environment in which access is limited to members of an enterp
 ### private image repository
 {: #x8439215}
 
-The combination of an organization's Bluemix registry and its namespace. The private image repository is used when referencing an image in a command. See also [image](#x2024928), [namespace](#x2031005).
+The combination of an organization's IBM Cloud registry and its namespace. The private image repository is used when referencing an image in a command. See also [image](#x2024928), [namespace](#x2031005).
 
 ### private key
 {: #x2034701}
@@ -792,7 +792,7 @@ An algorithmic pattern used to encrypt messages that only the corresponding publ
 ### private service
 {: #x7690456}
 
-A service that is visible only to members of a specified Bluemix organization.
+A service that is visible only to members of a specified IBM Cloud organization.
 
 ### project
 {: #x2035151}
@@ -861,7 +861,7 @@ A software architectural style for distributed hypermedia systems like the World
 ### resource
 {: #x2004267}
 
-A physical or logical component that can be provisioned or reserved for an application or service instance.  Examples of resources include database, accounts, and processor, memory, and storage limits.
+A physical or logical component that can be provisioned or reserved for an application or service instance. Examples of resources include database, accounts, and processor, memory, and storage limits.
 
 ### REST
 {: #x3220987}
@@ -876,7 +876,7 @@ In agile development, a meeting or a work item that evaluates successes and need
 ### route
 {: #x2037338}
 
-The URL used to direct requests to an application. A route is made up of an optional host (or subdomain) and a domain that are specified when an application is pushed. For example, in the route myapp.example.com, myapp is the host and example.com is the domain. A route can be associated with one or more applications. Unless a custom domain is specified, Bluemix uses a default shared domain in the route to your application. See also [custom domain](#x5728384), [domain](#x2021210), [endpoint](#x2026820), [host](#x2002243), [subdomain](#x2040080), [Uniform Resource Locator](#x2042491).
+The URL used to direct requests to an application. A route is made up of an optional host (or subdomain) and a domain that are specified when an application is pushed. For example, in the route myapp.example.com, myapp is the host and example.com is the domain. A route can be associated with one or more applications. Unless a custom domain is specified, IBM Cloud uses a default shared domain in the route to your application. See also [custom domain](#x5728384), [domain](#x2021210), [endpoint](#x2026820), [host](#x2002243), [subdomain](#x2040080), [Uniform Resource Locator](#x2042491).
 
 ### rule
 {: #x2037526}
@@ -912,7 +912,7 @@ See [software as a service](#x4585386).
 ### scale
 {: #x2004442}
 
-To increase platform (or system) capacity by adding more application or service instances
+To increase platform (or system) capacity by adding more application or service instances.
 
 ### SCM
 {: #x2116206}
@@ -978,7 +978,7 @@ An aspect of software configuration management that involves managing changes to
 {: #x2039442}
 
 - An organizational unit that contains applications and services in the Cloud Foundry infrastructure and can be used to store and track application resources.
-- A sub-group within a Bluemix org. Users who are members of an org are given access to one or more of its spaces, with permissions associated with a particular role (such as developer, manager, or auditor). Any member of the space can view apps, but only members with the developer role can create apps and add service instances to the space. Apps and service instances are associated with spaces. See also [organization](#x2032585).
+- A sub-group within an IBM Cloud org. Users who are members of an org are given access to one or more of its spaces, with permissions associated with a particular role (such as developer, manager, or auditor). Any member of the space can view apps, but only members with the developer role can create apps and add service instances to the space. Apps and service instances are associated with spaces. See also [organization](#x2032585).
 
 ### sprint
 {: #x6248609}
@@ -1010,7 +1010,7 @@ A section of a software package that defines either a specific action to be perf
 ### starter
 {: #x7470511}
 
-A template that includes predefined services and application code that is configured with a particular buildpack.  A starter might be application code that is written in a specific programming language, or a combination of application code and a set of services. See also [runtime](#x2391929).
+A template that includes predefined services and application code that is configured with a particular buildpack. A starter might be application code that is written in a specific programming language, or a combination of application code and a set of services. See also [runtime](#x2391929).
 
 ### story
 {: #x5027530}
@@ -1030,7 +1030,7 @@ A feature that parses code and attempts to interpret it before compilation in or
 ### system of engagement
 {: #x6528306}
 
-An information technology (IT) system that incorporates technologies that encourage user interaction through email, collaboration systems, and networking.  A system of engagement often uses cloud technologies to extend the usefulness of systems of record. See also [system of record](#x6735061).
+An information technology (IT) system that incorporates technologies that encourage user interaction through email, collaboration systems, and networking. A system of engagement often uses cloud technologies to extend the usefulness of systems of record. See also [system of record](#x6735061).
 
 ### system of record (SOR)
 {: #x6735061}
@@ -1207,4 +1207,3 @@ An artifact representing a generalized notion of a development task, such as a t
 
 - A context that contains a collection of artifacts that a user with appropriate permission can modify.
 - In Eclipse, the collection of projects and other resources that the user is currently developing in the workbench. Metadata about these resources resides in a directory on the file system; the resources might reside in the same directory. See also [repository workspace](#x3889804).
-
