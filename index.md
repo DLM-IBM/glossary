@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-10-19"
+lastupdated: "2017-11-28"
 
 
 ---
@@ -789,6 +789,11 @@ The combination of an organization's IBM Cloud registry and its namespace. The p
 
 An algorithmic pattern used to encrypt messages that only the corresponding public key can decrypt. The private key is also used to decrypt messages that were encrypted by the corresponding public key. The private key is kept on the user system and is protected by a password.
 
+### private resource
+{: #x9439035}
+
+An entry that is visible only to account owners and their included accounts. When resources are created, they are private by default. See also [public resource](#x9439040).
+
 ### private service
 {: #x7690456}
 
@@ -803,6 +808,11 @@ An organized collection used to group folders or packages. Projects are used for
 {: #x4585370}
 
 A cloud computing environment in which access to standardized resources, such as infrastructure, multi-tenant hardware, and services, is available to subscribers on a pay-per-use basis. See also [borderless](#x8439189), [private cloud](#x4585362).
+
+### public resource
+{: #x9439040}
+
+An entry that is visible to everyone in the IBM Cloud catalog. Public resources can be built by any provider (IBM or third party providers). See also [private resource](#x9439035).
 
 ### push
 {: #x2035465}
@@ -862,6 +872,11 @@ A software architectural style for distributed hypermedia systems like the World
 {: #x2004267}
 
 A physical or logical component that can be provisioned or reserved for an application or service instance. Examples of resources include database, accounts, and processor, memory, and storage limits.
+
+### resource group
+{: #x2161955}
+
+The environment, and constraints, in which contained resource instances adhere to. A user can be associated with a resource group to enable collaboration.
 
 ### REST
 {: #x3220987}
