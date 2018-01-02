@@ -265,6 +265,10 @@ A computing platform where users can have access to applications or computing re
 
 The ability to move applications and services across public or private cloud computing environments, or from different cloud providers.
 
+### cloud resource names (CRNs)
+
+Uniquely identify IBM Cloud resources. A CRN is used to specify a resource in a way that is unambiguous and guaranteed to be globally unique in IBM Cloud Identity and Access Management (IAM) policies and services listed in the cloud catalog. A CRN is formed from a concatenation of "segments" that hierarchically identify the resource, its location, and the service it belongs to, separated by a segment delimiter (the colon character). All CRNs begin with the segment identifier 'crn'.
+
 ### code completion
 {: #x7344030}
 
